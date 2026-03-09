@@ -59,7 +59,7 @@ const displayPost = (posts, containerId) => {
     container.innerHTML = "";
 
     posts.forEach(post => {
-        // Determine status border & status image
+  
         let borderColor = "";
         let statusImg = "";
 
@@ -116,7 +116,7 @@ const displayPost = (posts, containerId) => {
     });
 };
 
-// SHOW ONLY SELECTED TAB
+
 const showOnlyContainer = (containerId) => {
 
     ["allContainer", "openContainer", "closedContainer"].forEach(id => {
@@ -174,7 +174,7 @@ searchBtn.addEventListener("click", () => {
 
 });
 
-// MODAL FUNCTION (NEW)
+
 const openIssueModal = (id) => {
 
     fetch(`https://phi-lab-server.vercel.app/api/v1/lab/issue/${id}`)
