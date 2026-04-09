@@ -1,14 +1,67 @@
-1️⃣ What is the difference between var, let, and const?
-=> var is the old way to declare variables in JavaScript it can be redeclared updated and it is function scoped not block scoped. let is the modern way to declare variables but it cannot be redeclared. It can be updated.It is block scoped means works inside the {}. const is used to when the value should no change. It cannot be redeclared,cannot be updated and it is block scoped.
-2️⃣ What is the spread operator (...)?
-=>The spread operator (...) is used to expand elements of an array or object into individual values.
-It helps to copy arrays or objects and combine multiple arrays or objects easily. We can use spread operator for copy an array ,merge arrays or objects,pass value into functions.
-3️⃣ What is the difference between map(), filter(), and forEach()?
-=>map(), filter(), and forEach() are array methods used to work with array elements. map() is used to modify every element of an array and return a new array. filter() creates a new array with elements that match a condition. forEach() runs a function for each element but does not return a new array.
-4️⃣ What is an arrow function?
-=>Arrow functions provide a short and simple syntax for functions.
-They are often used for small or one-line functions.
-Example: const sum = (a,b) => a + b;
-5️⃣ What are template literals?
-=>Template literals are a way to write strings in JavaScript using backticks `` instead of quotes.
-They allow us to insert variables easily using ${} inside the string. Example: `Hello ${user}`.
+# 🛠️ GitHub Issue Tracker
+
+A modern, responsive web application designed to help developers and teams manage their workflow by tracking, filtering, and organizing GitHub repository issues in real-time.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+---
+
+## 🚀 Overview
+The **GitHub Issue Tracker** streamlines project management by providing a centralized dashboard to monitor bugs, tasks, and feature requests. By leveraging the GitHub API, it ensures that teams stay synchronized and that critical tasks are prioritized effectively.
+
+## ✨ Key Features
+* **Live Issue Sync:** Fetch and view real-time open and closed issues from any repository.
+* **Advanced Filtering:** Filter tasks by status (Open/Closed), priority, or labels to focus on what matters.
+* **Search Functionality:** Quickly find specific tasks or bugs using a high-performance search bar.
+* **Detailed View:** Access comprehensive issue information, including comments, assignees, and timestamps.
+* **Responsive UI:** Fully optimized for desktop, tablet, and mobile viewing using Tailwind CSS and DaisyUI.
+
+## 🛠️ Tech Stack
+* **Frontend:** [Next.js](https://nextjs.org/), [React.js](https://reactjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/)
+* **Language:** Modern JavaScript (ES6+)
+* **API:** GitHub REST API
+* **Icons:** React Icons / Lucide React
+
+## 📦 Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/github-issue-tracker.git](https://github.com/your-username/github-issue-tracker.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd github-issue-tracker
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 🚧 Roadmap
+- [ ] Implement OAuth for private repository access.
+- [ ] Add drag-and-drop Kanban board view.
+- [ ] Integrated analytics dashboard for issue resolution time.
+
+## 🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+Developed with ❤️ by [Monoara Tasnim](https://github.com/your-username)
