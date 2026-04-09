@@ -1,4 +1,3 @@
-Since you are showcasing your skills in **Vanilla JavaScript**, **DOM Manipulation**, and **APIs**, here is a professional `README.md` that highlights your ability to build complex applications without relying on frameworks.
 
 ### 🛠️ GitHub Issue Tracker (Vanilla JS)
 
