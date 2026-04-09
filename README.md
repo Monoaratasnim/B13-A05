@@ -39,15 +39,7 @@ The application handles the full request-response cycle, including:
   * **Error Handling:** Gracefully managing 404s (repo not found) and API rate limits.
   * **Data Mapping:** Transforming complex JSON responses into interactive UI cards.
 
-## 📦 Getting Started
 
-1.  **Clone the Repo:**
-    ```bash
-    git clone https://github.com/your-username/github-issue-tracker.git
-    ```
-2.  **Run Locally:**
-    No complex installation or `npm` required\! Simply open `index.html` in your browser.
-    *(Tip: Use the VS Code "Live Server" extension for the best development experience.)*
 
 ## 🧠 What I Learned
 
